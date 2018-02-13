@@ -117,11 +117,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4995086478769056, guid: f9bd06f643f9d9249bb26ffc8ab768ac, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.471
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 4995086478769056, guid: f9bd06f643f9d9249bb26ffc8ab768ac, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.546
+      value: -2.17
       objectReference: {fileID: 0}
     - target: {fileID: 4995086478769056, guid: f9bd06f643f9d9249bb26ffc8ab768ac, type: 2}
       propertyPath: m_LocalPosition.z
@@ -248,6 +248,26 @@ GameObject:
   m_PrefabParentObject: {fileID: 1882025319442480, guid: f9bd06f643f9d9249bb26ffc8ab768ac,
     type: 2}
   m_PrefabInternal: {fileID: 1488845755}
+--- !u!50 &1304904800
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1304904799}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1001 &1488845755
 Prefab:
   m_ObjectHideFlags: 0
@@ -257,11 +277,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4995086478769056, guid: f9bd06f643f9d9249bb26ffc8ab768ac, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.45
+      value: -3.71
       objectReference: {fileID: 0}
     - target: {fileID: 4995086478769056, guid: f9bd06f643f9d9249bb26ffc8ab768ac, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.13
+      value: -3.54
       objectReference: {fileID: 0}
     - target: {fileID: 4995086478769056, guid: f9bd06f643f9d9249bb26ffc8ab768ac, type: 2}
       propertyPath: m_LocalPosition.z
@@ -299,6 +319,26 @@ GameObject:
   m_PrefabParentObject: {fileID: 1882025319442480, guid: f9bd06f643f9d9249bb26ffc8ab768ac,
     type: 2}
   m_PrefabInternal: {fileID: 255684951}
+--- !u!50 &2056261248
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056261247}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2074632913
 GameObject:
   m_ObjectHideFlags: 0

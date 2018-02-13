@@ -26,7 +26,7 @@ public class LevelBuilder : MonoBehaviour {
 		for(roomCount = 0; roomCount <= numRooms; roomCount++){
 			GameObject cube = Instantiate (cubePrefab);
 			roomList.Add (cube);
-			Vector2 spawnPosition = Random.insideUnitCircle * 20;
+			Vector2 spawnPosition = Random.insideUnitCircle * 40;
 			int sizeX = Random.Range (4, 12);
 			int sizeY = Random.Range (4, 8);
 
@@ -40,29 +40,6 @@ public class LevelBuilder : MonoBehaviour {
 	}
 
 	void SeparateRooms(){
-		GameObject roomA;
-		GameObject roomB;
 
-		int dx, dxa, dxb, dy, dya, dyb;
-
-		bool isTouching;
-		/**
-		if(isTouching) {
-			isTouching = false;
-			for(int i = 0; i < roomList.Count; i++) {
-				roomA = roomList[i];
-				for (int j = i + 1; j < roomList.Count; j++) {
-					roomB = roomList [j];
-					Collider2D roomACollider = roomA.GetComponent<Collider2D> ();
-					Collider2D roomBCollider = roomB.GetComponent<Collider2D> ();
-					if (roomACollider.IsTouching (roomBCollider)) {
-						isTouching = true;
-
-						//Debug.Log (dx);
-					}
-				}
-			}
-		}
-		**/
 	}
 }

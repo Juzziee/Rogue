@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5055df5722218c1458fb5c27304b0ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numRooms: 50
+  numRooms: 80
   cubePrefab: {fileID: 1882025319442480, guid: f9bd06f643f9d9249bb26ffc8ab768ac, type: 2}
 --- !u!4 &2065260643
 Transform:
