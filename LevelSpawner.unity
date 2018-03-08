@@ -117,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2065260643}
   - component: {fileID: 2065260642}
+  - component: {fileID: 2065260644}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: GameController
@@ -130,12 +131,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2065260641}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5055df5722218c1458fb5c27304b0ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   numRooms: 80
+  numCorridors: 0
   cubePrefab: {fileID: 1882025319442480, guid: f9bd06f643f9d9249bb26ffc8ab768ac, type: 2}
 --- !u!4 &2065260643
 Transform:
@@ -150,3 +152,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2065260644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2065260641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f1ca11d0461cf43b0be0b8a80cefda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spritePrefab: {fileID: 1882025319442480, guid: f9bd06f643f9d9249bb26ffc8ab768ac,
+    type: 2}
